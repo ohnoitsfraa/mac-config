@@ -1,0 +1,84 @@
+[
+    {
+        "value": "brew",
+        "name": "Homebrew",
+        "commands": [
+            "/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\"",
+            "brew update"
+        ]
+    },
+    {
+        "value": "ohmyzsh",
+        "name": "Oh My Zsh",
+        "commands": [
+            "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\"",
+            "brew list zsh-syntax-highlighting-code &>/dev/null || brew install zsh-syntax-highlighting",
+            "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions",
+            "git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting",
+            "npm install --global pure-prompt"
+        ]
+    },
+    {
+        "value": "firecode",
+        "name": "Fira Code Font",
+        "commands": [
+            "brew tap homebrew/cask-fonts",
+            "brew list font-fira-code &>/dev/null || brew install font-fira-code --cask"
+        ]
+    },
+    {
+        "value": "lazygit",
+        "name": "Lazy Git",
+        "commands": [
+            "brew install jesseduffield/lazygit/lazygit",
+            "brew install lazygit"
+        ]
+    },
+    {
+        "value": "apps",
+        "name": "Brew Applications",
+        "commands": [
+            "brew list google-chrome &>/dev/null || brew install google-chrome --cask",
+            "brew list alfred &>/dev/null || /brew install alfred --cask",
+            "brew list iterm2 &>/dev/null || brew install iterm2 --cask",
+            "brew list adobe-creative-cloud &>/dev/null || brew install adobe-creative-cloud --cask",
+            "brew list sync &>/dev/null || brew install sync --cask",
+            "brew list 1password &>/dev/null || brew install 1password  --cask",
+            "brew list visual-studio-code &>/dev/null || brew install visual-studio-code  --cask",
+            "brew list spotify &>/dev/null || brew install spotify  --cask",
+            "brew list notion &>/dev/null || brew install notion  --cask",
+            "brew list gitkraken &>/dev/null || brew install gitkraken  --cask",
+            "brew list keka &>/dev/null || brew install keka  --cask",
+            "brew list sip &>/dev/null || brew install sip",
+            "brew list vlc &>/dev/null || brew install vlc  --cask",
+            "brew list rambox &>/dev/null || brew install rambox  --cask",
+            "brew list firefox &>/dev/null || brew install firefox  --cask",
+            "brew list microsoft-teams &>/dev/null || brew install microsoft-teams  --cask",
+            "brew list middle &>/dev/null || brew install middle  --cask",
+            "brew list keepingyouawake &>/dev/null || brew install keepingyouawake  --cask",
+            "brew list microsoft-teams &>/dev/null || brew install microsoft-teams --cask",
+            "brew list slack &>/dev/null || brew install slack --cask",
+            "brew list whatsapp &>/dev/null || brew install whatsapp --cask",
+            "brew list messenger &>/dev/null || brew install messenger --cask",
+            "brew list ableton-live-suite &>/dev/null || brew install ableton-live-suite --cask",
+            "brew list shottr &>/dev/null || install shottr --cask",
+            "brew list private-internet-access &>/dev/null || brew install private-internet-access --cask",
+            "brew list karabiner-elements &>/dev/null || brew install karabiner-elements --cask",
+            "brew install mas"
+        ]
+    },
+    {
+        "value": "mas",
+        "name": "Mac Appstore Apps",
+        "commands": [
+            "mas install 422293948",
+            "mas install 441258766",
+            "mas install 1298486723",
+            "mas install 931571202",
+            "mas install 507257563",
+            "mas install 1176895641",
+            "mas install 1153157709",
+            "mas install 1452453066"
+        ]
+    }
+]

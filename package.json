@@ -1,0 +1,25 @@
+{
+  "name": "config",
+  "version": "1.0.0",
+  "description": "Mac installer/configurator",
+  "main": "index.js",
+  "scripts": {
+    "config:config": "node ./config.js",
+    "config:install": "node ./install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohnoitsfraa/config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohnoitsfraa/config/issues"
+  },
+  "homepage": "https://github.com/ohnoitsfraa/config#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "inquirer": "^7.3.3",
+    "node-cmd": "^3.0.0"
+  }
+}

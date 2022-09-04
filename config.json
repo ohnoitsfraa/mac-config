@@ -1,0 +1,18 @@
+[
+    {
+        "type": "symlink",
+        "value": "file-symlink",
+        "name": "File Symlink",
+        "source": "examples",
+        "file": "file-symlink.txt",
+        "target": "~/"
+    },
+    {
+        "type": "copy",
+        "value": "file-copy",
+        "name": "File Copy",
+        "source": "examples",
+        "file": "file-copy.txt",
+        "target": "~/"
+    }
+]
